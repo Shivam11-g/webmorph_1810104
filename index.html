@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,123 +14,107 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark px-5 " style="background-color: #203345; margin-top: -7px;">
+    <a class="navbar-brand" href="#"><img style="position: relative; top: 5px;" src="image/flux.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark px-5" style="background-color: #203345; margin-top: -7px;">
-        <a class="navbar-brand" href="#"><img style="position: relative; top: 5px;" src="image/flux.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto" style="left: 300px;">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" style="left: 300px;">
+        </ul>
+        <form class="form-inline my-2 my-lg-0 ">
+                        <div class="navbar-nav " >
+                            <li class="nav-item active"
+                                style="border-top: 4px solid rgb(40, 129, 245); margin-top: -11px; padding-top:4px;">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item " style="margin-top: -5px;">
+                                <a class="nav-link" href="#">Movies</a>
+                            </li>
+                            <li class="nav-item " style="margin-top: -5px;">
+                                <a class="nav-link" href="#">TV shows</a>
+                            </li>
+                            <li class="nav-item" style="margin-top: -5px;">
+                                <a class="nav-link" href="#">Kids</a>
+                            </li>
+                        </div>
+            <div class="searchBar py-1 pr-2 mx-3">
+                <input class="search pl-2" type="search" placeholder="Search" aria-label="Search">
+                <i style="position: relative; left: 33px;" class="fa fa-search" aria-hidden="true"></i>
+            </div>
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-                <div class="navbar-nav ">
-                    <li class="nav-item active"
-                        style="border-top: 4 px solid rgb(40, 129, 245); margin-top: -11px; padding-top:4px;">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item " style="margin-top: -5px;">
-                        <a class="nav-link" href="#">Movies</a>
-                    </li>
-                    <li class="nav-item " style="margin-top: -5px;">
-                        <a class="nav-link" href="#">TV shows</a>
-                    </li>
-                    <li class="nav-item" style="margin-top: -5px;">
-                        <a class="nav-link" href="#">Kids</a>
-                    </li>
-                </div>
-                <div class="searchBar py-1 pr-2 mx-3">
-                    <input class="search pl-2" type="search" placeholder="Search" aria-label="Search">
-                    <i style="position: relative; left: 33px;" class="fa fa-search" aria-hidden="true"></i>
-                </div>
-
-                <a href="#"><span style="height: 30px; width: 30px;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                            y="0px" width="26" height="26" viewBox="0 0 172 172" style=" fill:#000000;">
-                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                                style="mix-blend-mode: normal">
-                                <path d="M0,172v-172h172v172z" fill="none"></path>
-                                <g fill="#ffffff">
-                                    <path
-                                        d="M141.04,13.76h-110.08c-9.4944,0 -17.2,7.7056 -17.2,17.2v110.08c0,6.9832 4.1968,13.0376 10.1824,15.7208c2.1328,0.9288 4.5064,1.4792 7.0176,1.4792h110.08c2.5112,0 4.8848,-0.5504 7.0176,-1.4792c5.9856,-2.6832 10.1824,-8.7376 10.1824,-15.7208v-110.08c0,-9.4944 -7.7056,-17.2 -17.2,-17.2zM71.7928,118.4736c0.5848,-4.6096 0.3096,-7.6712 0.3096,-12.0056c-2.1672,-1.2384 -6.192,-8.2904 -6.8112,-14.1384c-1.548,0 -4.3344,-1.548 -4.9536,-8.0152c-0.6192,-3.3712 1.2384,-5.2288 2.1672,-5.848c-5.5728,-21.2248 -2.4768,-40.0072 23.1856,-40.6264c6.5016,0 11.4552,1.8576 13.0032,5.2288c18.8512,2.4768 13.2784,27.692 10.492,35.7072c0.9288,0.6192 2.4768,2.4768 2.1672,5.848c-0.6192,6.1576 -3.4056,8.0152 -4.9536,8.0152c-0.6192,6.1576 -4.3344,12.9 -6.5016,14.1384c0,4.0248 0,7.396 0.3096,12.0056c5.0224,12.9344 36.1888,10.148 40.3856,32.5768h-109.1856c4.2312,-22.4288 35.6728,-19.6768 40.3856,-32.8864z">
-                                    </path>
-                                </g>
+            <a href="#"><span style="height: 30px; width: 30px;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="26" height="26" viewBox="0 0 172 172" style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M141.04,13.76h-110.08c-9.4944,0 -17.2,7.7056 -17.2,17.2v110.08c0,6.9832 4.1968,13.0376 10.1824,15.7208c2.1328,0.9288 4.5064,1.4792 7.0176,1.4792h110.08c2.5112,0 4.8848,-0.5504 7.0176,-1.4792c5.9856,-2.6832 10.1824,-8.7376 10.1824,-15.7208v-110.08c0,-9.4944 -7.7056,-17.2 -17.2,-17.2zM71.7928,118.4736c0.5848,-4.6096 0.3096,-7.6712 0.3096,-12.0056c-2.1672,-1.2384 -6.192,-8.2904 -6.8112,-14.1384c-1.548,0 -4.3344,-1.548 -4.9536,-8.0152c-0.6192,-3.3712 1.2384,-5.2288 2.1672,-5.848c-5.5728,-21.2248 -2.4768,-40.0072 23.1856,-40.6264c6.5016,0 11.4552,1.8576 13.0032,5.2288c18.8512,2.4768 13.2784,27.692 10.492,35.7072c0.9288,0.6192 2.4768,2.4768 2.1672,5.848c-0.6192,6.1576 -3.4056,8.0152 -4.9536,8.0152c-0.6192,6.1576 -4.3344,12.9 -6.5016,14.1384c0,4.0248 0,7.396 0.3096,12.0056c5.0224,12.9344 36.1888,10.148 40.3856,32.5768h-109.1856c4.2312,-22.4288 35.6728,-19.6768 40.3856,-32.8864z">
+                                </path>
                             </g>
-                        </svg>
-                    </span></a>
-            </form>
-        </div>
-    </nav>
-
-    <div class="container-img">
-        <a href="#"><img src="image/play-button.svg" alt="" class="playButton" style="left:950px;"></a>
-        <img src="image/MoneyHeist-3.png" alt="" class="moneyheist-img1" style="width:58%; height:450px; ">
+                        </g>
+                    </svg>
+                </span></a>
+        </form>
     </div>
+</nav>
 
-<div class="m-5">
-    <h1 class="">"Money Heist : Part 4"</h1>
-    <p style="color: rgb(180, 180, 180);">Season 4 | 2019 <img style="height: 8px;"
-            src="https://img.icons8.com/emoji/48/000000/star-emoji.png" /> 4.3</p>
-    <p style="color: rgb(180, 180, 180);">Lives are on the line Professor's plan begins to unravel and the thieves must fend off enemies from both inside
-        and outside the Bank and Spain</p>
-    <a class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="28" height="28" viewBox="0 0 172 172" style=" fill:#000000;">
-            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                style="mix-blend-mode: normal">
-                <path d="M0,172v-172h172v172z" fill="none"></path>
-                <g fill="#ffffff">
-                    <path
-                        d="M133.67728,78.42849l-88.01562,-43.62019c-2.66166,-1.34375 -5.84015,-1.21454 -8.39844,0.33594c-2.55829,1.52464 -4.08294,4.26382 -4.08294,7.20974v87.31791c0,2.92007 1.52464,5.65925 4.08294,7.18389c1.39543,0.85276 2.94591,1.26622 4.52223,1.26622c1.34375,0 2.66166,-0.3101 3.87621,-0.90444l88.04147,-43.67188c2.89423,-1.42128 4.72896,-4.34135 4.72896,-7.54567c0,-3.20433 -1.86058,-6.1244 -4.75481,-7.57151z">
-                    </path>
-                </g>
-            </g>
-        </svg><span style="font-size:20px; color: white;"> Watch</span></a>
-    <button class="btn wishlist mx-3"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
-            viewBox="0 0 172 172" style=" fill:#000000;">
-            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                style="mix-blend-mode: normal">
-                <path d="M0,172v-172h172v172z" fill="none"></path>
-                <g fill="#ffffff">
-                    <path
-                        d="M143.33333,78.83333h-50.16667v-50.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667v50.16667h-50.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667c0,3.956 3.21067,7.16667 7.16667,7.16667h50.16667v50.16667c0,3.956 3.21067,7.16667 7.16667,7.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667v-50.16667h50.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667z">
-                    </path>
-                </g>
-            </g>
-        </svg> Add to Wishlist</button>
-        <table>
-            <tr>
-                <td style="color: rgb(180, 180, 180);">Director</td>
-                <td style="color: rgb(49, 122, 218);">Alex Pina</td>
-            </tr>
-            <tr>
-                <td style="color: rgb(180, 180, 180);">Starring</td>
-                <td style="color: rgb(49, 122, 218);">Ursula Corbero, Alvaro Morte, Itziar Ituno</td>
-            </tr>
-            <tr>
-                <td style="color: rgb(180, 180, 180);">Genere</td>
-                <td style="color: rgb(49, 122, 218);">Drama, Thriller, Crime Flim</td>
-            </tr>
-            <tr>
-                <td style="color: rgb(180, 180, 180);">Subtitles</td>
-                <td>English, Spanish</td>
-            </tr>
-            <tr>
-                <td style="color: rgb(180, 180, 180);">Audio Language</td>
-                <td>Spanish, English, Hindi</td>
-            </tr>
-        </table>
 
+
+
+
+<div class="container-img">
+    <a href="#"><img src="image/play-button.svg" alt="" class="playButton"></a>
+    <img src="image/MoneyHeist-1.png" alt="" class="moneyheist-img1">
+    <h1 class="moneyheist-text">"Money Heist : Part 4"</h1>
 </div>
+
+<div class="container-img">
+    <img src="image/MoneyHeist-2.jpg" alt="" class="moneyheist-img2">
+</div>
+<div >
+    <div class="moneyheist-detail-text">
+        <p>Lives are on the line Professor's plan begins to unravel and the thieves must fend off enemies from both inside and outside the Bank and Spain</p>
+        <a  class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg"
+                x="0px" y="0px" width="28" height="28" viewBox="0 0 172 172" style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path
+                            d="M133.67728,78.42849l-88.01562,-43.62019c-2.66166,-1.34375 -5.84015,-1.21454 -8.39844,0.33594c-2.55829,1.52464 -4.08294,4.26382 -4.08294,7.20974v87.31791c0,2.92007 1.52464,5.65925 4.08294,7.18389c1.39543,0.85276 2.94591,1.26622 4.52223,1.26622c1.34375,0 2.66166,-0.3101 3.87621,-0.90444l88.04147,-43.67188c2.89423,-1.42128 4.72896,-4.34135 4.72896,-7.54567c0,-3.20433 -1.86058,-6.1244 -4.75481,-7.57151z">
+                        </path>
+                    </g>
+                </g>
+            </svg><span style="font-size:20px; color: white;" > Watch</span></a>
+        <button class="btn wishlist mx-3"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                viewBox="0 0 172 172" style=" fill:#000000;">
+                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                        <path
+                            d="M143.33333,78.83333h-50.16667v-50.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667v50.16667h-50.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667c0,3.956 3.21067,7.16667 7.16667,7.16667h50.16667v50.16667c0,3.956 3.21067,7.16667 7.16667,7.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667v-50.16667h50.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667z">
+                        </path>
+                    </g>
+                </g>
+            </svg> Add to Wishlist</button>
+        <button class="btn wishlist">Detail</button>
+    </div>
+</div>
+
 
 
 <div class="mx-5 card-deck">
@@ -140,7 +123,7 @@
             <h5>| Fan Favourites</h5>
         </div>
         <div style="height: 200px;">
-            <div class="movie-card mr-3 " >
+            <div class="movie-card mr-3 ">
                 <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image "></a>
                 <div class="movie-card-detail px-2 mt-1 pt-2 ">
                     <i class="fa fa-play-circle-o" aria-hidden="true" style="font-size: x-large;"></i> Gully Boy
@@ -372,21 +355,147 @@
     </div>
 </div>
 
+<div class="mx-5 mb-5 card-deck">
+    <div class="mx-5 " style=" margin-bottom: 20px;">
+        <h5>| Watch in your language</h5>
+    </div>
+    <div class="ml-5">
+        <div class=" language-card">
+            <img src="image/english.png" alt="" class="language">
+        </div>
+        <div class="  language-card">
+            <img src="image/hindi.png" alt="" class="language">
+        </div>
+        <div class=" language-card">
+            <img src="image/marathi.png" alt="" class="language">
+        </div>
+        <div class=" language-card">
+            <img src="image/telugu.png" alt="" class="language">
+        </div>
+        <div class=" language-card">
+            <img src="image/tamil.png" alt="" class="language">
+        </div>
+        <div class=" language-card">
+            <img src="image/bengali.png" alt="" class="language">
+        </div>
+        <div class=" language-card">
+            <img src="image/malyalam.png" alt="" class="language">
+        </div>
+    </div>
+</div>
+
+
+<div class="mx-5 mb-5 ">
+    <div class="mx-5 " style=" margin-bottom: 20px;">
+        <h5>| Top Rated</h5>
+    </div>
+    <div class="mx-5">
+        <div class="topRated-card">
+            <img src="image/137807.jpg" class="topRated  mt-2" alt="...">
+            <div class="topRated-detail mx-5">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172"
+                    style=" fill:#000000; float: left;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#ffffff">
+                            <path
+                                d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM116.4096,88.3048l-43.6192,25.1808c-2.19587,1.26707 -3.9904,0.22933 -3.9904,-2.3048v-50.36733c0,-2.53413 1.79453,-3.57187 3.9904,-2.3048l43.6192,25.1808c2.19587,1.2728 2.19587,3.34827 0,4.61533z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                <span style="float: right; margin: 5px;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;">
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M143.33333,78.83333h-50.16667v-50.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667v50.16667h-50.16667c-3.956,0 -7.16667,3.21067 -7.16667,7.16667c0,3.956 3.21067,7.16667 7.16667,7.16667h50.16667v50.16667c0,3.956 3.21067,7.16667 7.16667,7.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667v-50.16667h50.16667c3.956,0 7.16667,-3.21067 7.16667,-7.16667c0,-3.956 -3.21067,-7.16667 -7.16667,-7.16667z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+                 <h3 class="pt-1">"The Avengers : Marvel Studios"</h3>
+                    <p style=" font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                        2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                        4.3 
+                    </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
-<footer style="height: 200px; background-color: #203345; position: relative; ">
+<div class="mx-5 card-deck">
+    <div class="mx-5 " style=" margin-bottom: 20px;">
+        <h5>| Choose by Genere</h5>
+    </div>
+    <div class="ml-5">
+        <div class=" genere-card">
+            <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+            <div class="genere-detail pt-1  " id="boxshadow">
+                <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                <span class="explore">
+                    <a style="color: rgb(29, 135, 255);">+Explore</a></span>
+            </div>
+        </div>
+        <div class=" genere-card">
+            <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+            <div class="genere-detail pt-1  " id="boxshadow">
+                <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                <span class="explore">
+                    <a style="color: rgb(29, 135, 255);">+Explore</a></span>
+            </div>
+        </div>
+        <div class=" genere-card">
+            <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+            <div class="genere-detail pt-1  " id="boxshadow">
+                <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                <span class="explore">
+                    <a style="color: rgb(29, 135, 255);">+Explore</a></span>
+            </div>
+        </div>
+        <div class=" genere-card">
+            <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+            <div class="genere-detail pt-1  " id="boxshadow">
+                <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                <span class="explore" >
+                    <a style="color: rgb(29, 135, 255);">+Explore</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="seeMore mx-5 mt-4 mb-5">
+        <center style="margin-bottom: -12px; padding-top: 5px;" >
+            <a href="#">
+                <p style="font-size: x-large;">See more</p>
+            </a>
+        </center>
+    </div>
+</div>
+
+
+
+
+
+<footer style="height: 200px; background-color: #203345; position: relative;">
     <center>
         <div>
-            <a href="#"><i class="fa fa-facebook-square icons"></i></a>
-            <a href="#"><i class="fa fa-twitter-square icons"></i></a>
-            <a href="#"><i class="fa fa-imdb icons"></i></a>
-            <a href="#"><i class="fa fa-instagram icons"></i></a>
+        <a href="#"><i class="fa fa-facebook-square icons"></i></a>
+        <a href="#"><i class="fa fa-twitter-square icons"></i></a>
+        <a href="#"><i class="fa fa-imdb icons"></i></a>
+        <a href="#"><i class="fa fa-instagram icons"></i></a>
         </div>
         <div>
-            <pre
-                style="color: rgb(219, 219, 219);">About Flux                Career                FAQ                  Get the App</pre>
+            <pre style="color: rgb(219, 219, 219);">About Flux                Career                FAQ                  Get the App</pre>
             <pre style="color: rgb(219, 219, 219);">Terms and Policies         Send Feedback          Help</pre>
             <img src="image/flux.png" alt="">
             <pre style="color: rgb(219, 219, 219);">&#169; 1990-2020 by Flux.com,inc</pre>
@@ -398,13 +507,12 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-</script>
-
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </html>
