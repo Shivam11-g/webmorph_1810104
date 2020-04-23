@@ -1,0 +1,435 @@
+h5,
+h3,
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin-top: 30px;
+}
+
+td {
+  padding-right: 25px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+pre {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(219, 219, 219);
+
+}
+
+body {
+  background-color: #152535;
+  font-family: 'Poppins',
+    sans-serif;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  height: 200px;
+  background-color: #203345;
+  position: relative;
+}
+
+.page-1 {
+  display: block;
+}
+
+.page-2 {
+  display: none;
+}
+
+::placeholder {
+  color: rgb(235, 235, 235);
+  opacity: 0.7;
+  /* Firefox */
+}
+
+
+
+.searchBar {
+  background-color: #394753;
+  border-radius: 4px;
+}
+
+.search {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  width: 78%;
+}
+
+.container-img {
+  position: relative;
+}
+
+.watch {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  transition: transform ease-out .2s;
+  background-color: rgb(22, 150, 255);
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+.watch:hover {
+  transform: scale(1.02) translateY(-4px);
+  color: rgb(255, 255, 255);
+  box-shadow: 0PX 1.5px 4px #8adeff;
+}
+
+.playButton {
+  position: relative;
+  z-index: 1;
+  width: 6%;
+  left: 800px;
+  top: 150px;
+  margin-bottom: -100px;
+  transition: transform ease-out .2s;
+}
+
+.playButton:hover {
+  transform: scale(1.2);
+}
+
+.moneyheist-img1 {
+  position: relative;
+  float: right;
+  height: 400px;
+  width: 75%;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 255, 255));
+}
+
+.moneyheist-img2 {
+  position: relative;
+  border-radius: 5px;
+  top: 60px;
+  left: 80px;
+  height: 450px;
+  z-index: 1;
+  transition: transform ease-out .2s;
+  box-shadow: 3px 3px 6px #111b22;
+  display: block;
+
+}
+
+.moneyheist-img2:hover {
+  transform: scale(1.02);
+  box-shadow: 3px 2px 7px #080b0e;
+}
+
+.moneyheist-detail-text {
+  position: relative;
+  top: -40px;
+  left: 29.5%;
+  width: 600px;
+  color: #e2e2e2;
+}
+
+.moneyheist-text {
+  position: absolute;
+  top: 348px;
+  left: 380px;
+}
+
+.moneyheist-detail {
+  position: relative;
+  top: -50px;
+  left: 27%;
+}
+
+.wishlist {
+  border: 2px solid rgb(255, 255, 255);
+  background: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  transition: transform ease-out .3s;
+}
+
+.wishlist:hover {
+  transform: scale(1.02) translateY(-4px);
+  color: whitesmoke;
+  box-shadow: 0PX 1.5px 4px #0099ff;
+}
+
+.language {
+  height: 140px;
+  width: 140px;
+  border-radius: 5px;
+  position: relative;
+  transition: transform ease-out .2s;
+
+}
+
+.language:hover {
+  transform: scale(1.02) translateY(3px);
+}
+
+.language-card {
+  margin-right: 29px;
+  float: left;
+}
+
+.genere-card {
+  margin-right: 39px;
+  float: left;
+}
+.genere-card:hover .genere-detail{
+  transform: scale(.9) translateY(30px);
+
+}
+.genere {
+  height: 140px;
+  width: 260px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0PX 2px 3px #141d25;
+  z-index: 1;
+  transition: transform ease-out .2s;
+}
+
+.genere:hover {
+  transform: scale(1.02);
+}
+
+.genere-detail {
+  position: relative;
+  top: -30px;
+  transform: scale(.9);
+  padding-bottom: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #203345;
+  box-shadow: 0px 2px 3px #141d25;
+  transition: transform ease-out .2s;
+}
+
+.explore {
+  z-index: 1;
+  position: relative;
+  font-size: 10px;
+  left: 125px;
+
+}
+
+.explore:hover {
+  cursor: pointer;
+}
+
+
+.seeMore {
+  background-color: #203345;
+  border-radius: 5px;
+  width: 1200px;
+  top: 200px;
+  transition: transform .3s;
+}
+
+.seeMore:hover {
+  box-shadow: 0px 1px 3px #141d25;
+  transform: scale(1.01);
+}
+
+.icons {
+  color: rgb(177, 177, 177);
+  font-size: 27px;
+  margin: 15px;
+  transition: transform 0.3s;
+
+}
+
+.icons:hover {
+  color: whitesmoke;
+  transform: scale(1.1);
+
+}
+
+.topRated {
+  position: relative;
+  left: 30px;
+  border-radius: 10px;
+  height: auto;
+  width: 1100px;
+  transition: transform ease-out .2s;
+  box-shadow: 0PX 5px 5px #141d25;
+}
+
+.topRated-card {
+  transition: transform ease-out .2s;
+  margin-bottom: -30px;
+}
+
+@keyframes topRated-card {
+  0% {
+    margin-bottom: -30px;
+  }
+
+  .5% {
+    margin-bottom: 0px;
+  }
+
+  100% {
+    margin-bottom: 0px;
+  }
+}
+
+.topRated-card:hover {
+  transform: scale(1.07) translateY(10px);
+  animation: topRated-card 30s ease-out;
+}
+
+.topRated-detail {
+  position: relative;
+  top: -160px;
+  box-shadow: 0PX 5px 5px #141d25;
+  background-color: #203345;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transform: scale(1);
+  z-index: -1;
+  transition: transform ease-out .2s;
+  padding-top: 10px;
+}
+
+.topRated-card:hover .topRated-detail {
+  transform: translateY(160px);
+  box-shadow: 0PX 2px 3px #141d25;
+}
+
+
+.card-image {
+  height: 140px;
+  width: 260px;
+  border-radius: 5px;
+  z-index: -1;
+  box-shadow: 0PX 2.5px 4px #141d25;
+}
+
+/* .card-image:hover {
+  transform: scale(1.25) translateY(14px) translateZ(1000px);
+  
+} */
+.movie-card:hover .movie-card-detail {
+  transform: scale(.9) translateY(95px);
+}
+
+.movie-card-detail {
+  background-color: #203345;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  z-index: -1;
+  top: -93px;
+  transition: transform ease-out .2s;
+  box-shadow: 0PX 2px 3px #141d25;
+}
+
+.movie-card {
+  color: aliceblue;
+  position: relative;
+  float: left;
+  height: 70%;
+  transition: transform ease-out .18s;
+}
+
+.movie-card:hover {
+  transform: scale(1.45) translateY(21px);
+  z-index: 1;
+  padding-bottom: -100px;
+}
+
+
+/* .movie-card:hover .Bing{
+  z-index: -1;
+} */
+
+
+/* .detail{
+  position: relative;
+  top: -140px;
+  z-index: -1;
+  margin-bottom: -200px;
+}
+.movie-card:hover .detail{
+  animation: cardDetail 20s ease  ;
+  transform: scale(1.1);
+} */
+
+@keyframes detail {
+  0% {
+    top: -93px;
+  }
+
+  100% {
+    top: 30px;
+  }
+}
+
+/* .fanFav{
+  margin-bottom: 30px;
+}
+.movie-card:hover .fanFav{
+  animation: fanFav .2s;
+  margin-bottom: 100px;
+} */
+@keyframes fanFav {
+  0% {
+    margin-bottom: 30px;
+  }
+
+  100% {
+    margin-bottom: 100px;
+  }
+}
+
+
+
+
+@keyframes cardDetail {
+  0% {
+    top: -100px;
+    transform: scale(1);
+  }
+
+  1% {
+    top: 35px;
+    transform: scale(1.1);
+  }
+
+  100% {
+    top: 35px;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes movieAnimi {
+  from {
+    transform: scale(1);
+    z-index: -1;
+  }
+
+  to {
+    transform: scale(1.25);
+    z-index: 1;
+  }
+}
