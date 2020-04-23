@@ -50,7 +50,22 @@ footer {
   background-color: #203345;
   position: relative;
 }
+.profile-icon {
+  transition: transform .2s;
+  transform: scale(.6);
+}
+.profile-icon:hover{
+  transform: scale(.7);
+}
+.nav-li-link{
+  color: #aaaaaa;
+  padding: 21.5px 8px 8px 8px;
+}
+.nav-li-link:hover{
+  color: white;
+  border-top: 2px solid rgb(61, 168, 255);
 
+}
 .page-1 {
   display: block;
 }
