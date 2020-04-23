@@ -4,7 +4,7 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
- html {
+html {
   margin: 0px;
   padding: 0px;
 }
@@ -49,6 +49,8 @@ footer {
   height: 200px;
   background-color: #203345;
   position: relative;
+  margin-right: -15px;
+  margin-bottom: -30px;
 }
 .profile-icon {
   transition: transform .2s;
@@ -130,8 +132,7 @@ footer {
 .moneyheist-img1 {
   position: relative;
   float: right;
-  height: 400px;
-  width: 75%;
+  height: 440px;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 255, 255));
 }
 
@@ -187,13 +188,17 @@ footer {
   box-shadow: 0PX 1.5px 4px #0099ff;
 }
 
+.fan{
+  align-content: center;
+}
+
 .language {
   height: 140px;
   width: 140px;
   border-radius: 5px;
   position: relative;
   transition: transform ease-out .2s;
-
+  
 }
 
 .language:hover {
@@ -201,14 +206,15 @@ footer {
 }
 
 .language-card {
-  margin-right: 30px;
-  float: left;
-}
+width: 130px;
+height: 140px;
+border-radius: 3px;
+margin: 5px 0;
+position: relative;
 
+}
 .genere-card {
   width: 250px;
-  margin-right: 51px;
-  float: left;
 }
 .genere-card:hover .genere-detail{
   transform: scale(.9) translateY(30px);
@@ -243,8 +249,8 @@ footer {
   z-index: 1;
   position: relative;
   font-size: 10px;
-  left: 125px;
-
+  left: 120px;
+  
 }
 
 .explore:hover {
@@ -255,9 +261,9 @@ footer {
 .seeMore {
   background-color: #203345;
   border-radius: 5px;
-  width: 1200px;
-  top: 200px;
+  width: 95%;
   transition: transform .3s;
+  text-align: center;
 }
 
 .seeMore:hover {
@@ -283,8 +289,7 @@ footer {
   position: relative;
   left: 30px;
   border-radius: 10px;
-  height: auto;
-  width: 1100px;
+  width: 100%;
   transition: transform ease-out .2s;
   box-shadow: 0PX 5px 5px #141d25;
 }
@@ -316,7 +321,7 @@ footer {
 .topRated-detail {
   position: relative;
   top: -160px;
-  width: 1062px;
+  width: 1072px;
   box-shadow: 0PX 5px 5px #141d25;
   background-color: #203345;
   border-bottom-left-radius: 5px;
@@ -345,34 +350,41 @@ footer {
   
 } */
 .movie-card:hover .movie-card-detail {
-  transform: scale(.9) translateY(95px);
+  transform: scale(.97) translateY(95px);
 }
 
 .movie-card-detail {
   background-color: #203345;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  position: relative;
+  position: absolute;
+  height: 90px;
+  top: 0px;
+  left: 23px;
   z-index: -1;
-  top: -93px;
   transition: transform ease-out .2s;
   box-shadow: 0PX 2px 3px #141d25;
 }
 
 .movie-card {
   color: aliceblue;
+  margin: 20px 5px 5px 5px;
   position: relative;
-  float: left;
-  height: 70%;
   transition: transform ease-out .18s;
 }
 
 .movie-card:hover {
-  transform: scale(1.45) translateY(21px);
+  transform: scale(1.3) translateY(15px);
   z-index: 1;
   padding-bottom: -100px;
 }
+.fan{
+  justify-content: space-evenly;
+  display: flex;
+flex-wrap: wrap;
 
+
+}
 
 /* .movie-card:hover .Bing{
   z-index: -1;
